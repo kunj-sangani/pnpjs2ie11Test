@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ie-11-test-client-side-solution",
+    "id": "610c2858-c22e-4f0a-94f3-78c570698f96",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/ie-11-test.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ie-11-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ie11Test/Ie11TestWebPart.js",
+          "manifest": "./src/webparts/ie11Test/Ie11TestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Ie11TestWebPartStrings": "lib/webparts/ie11Test/loc/{locale}.js"
+  }
+}
